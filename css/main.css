@@ -1,0 +1,91 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+header {
+  background-color: #18294f;
+  margin: 0;
+  padding: .5rem 0 .5rem 0;
+  overflow: hidden;
+}
+
+ul li {
+  font-size: 1.125rem;
+  font-family: "Ubuntu";
+  list-style-type: none;
+  line-height: 2.5rem;
+}
+
+ul {
+  padding-left: 0;
+  background-color: #18294f;
+}
+
+a {
+  text-decoration: none;
+  color: #6c8fe0;
+  padding: .3rem;
+  display: block;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+  font-family: "Ubuntu";
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a:hover {
+  background-color: #6c8fe0;
+  color: white;
+  text-align: left;
+}
+
+@media only screen and (min-width: 25em) {
+  li {
+    float: left;
+    width: 50%;
+    text-align: center;
+  }
+
+
+
+}
+
+@media only screen and (min-width: 38em) {
+  li {
+    float: left;
+    width: 25%;
+
+  }
+
+  @media only screen and (min-width: 60em) {
+  li {
+    float: left;
+    width: 15%;
+  }
+
+  a{
+    padding: -2rem;
+
+  }
+
+  h1 {
+    float: left;
+    margin: 1rem 10.5rem 1rem 1rem;
+  }
